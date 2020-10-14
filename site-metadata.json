@@ -2,7 +2,7 @@
     "palette": "blue",
     "header": {
         "title": "Stize",
-        "logo_img": "images/logo.png",
+        "logo_img": "images/logo_s.png",
         "has_nav": true,
         "nav_links": [
             {
@@ -29,7 +29,7 @@
         ]
     },
     "footer": {
-        "logo_img": "images/logo_alt.png",
+        "logo_img": "images/logo_s_alt.png",
         "tagline": "Stize",
         "has_nav": true,
         "nav_title": "Stize",
