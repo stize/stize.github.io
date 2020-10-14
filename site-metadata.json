@@ -14,17 +14,8 @@
                 "url": "/features"
             },
             {
-                "label": "Pricing",
-                "url": "/pricing"
-            },
-            {
-                "label": "Style Guide",
-                "url": "/style-guide"
-            },
-            {
-                "label": "Sign Up",
-                "url": "/signup",
-                "primary": true
+                "label": "Blog",
+                "url": "/blog"
             }
         ]
     },
@@ -43,10 +34,6 @@
                 "url": "/blog"
             },
             {
-                "label": "Sign Up",
-                "url": "signup"
-            },
-            {
                 "label": "Contact",
                 "url": "/contact"
             }
@@ -55,32 +42,15 @@
         "social_title": "Community",
         "social_links": [
             {
-                "label": "Twitter",
-                "url": "https://twitter.com/",
-                "new_window": true
-            },
-            {
-                "label": "Instagram",
-                "url": "https://www.instagram.com/",
-                "new_window": true
-            },
-            {
-                "label": "LinkedIn",
-                "url": "https://www.linkedin.com/",
+                "label": "Github",
+                "url": "https://github.com/stize",
                 "new_window": true
             }
         ],
         "has_subscribe": true,
         "subscribe_title": "Subscribe",
         "subscribe_content": "Stay up to date with our latest developments.",
-        "content": "&copy; Stize. All rights reserved.",
-        "links": [
-            {
-                "label": "Stize",
-                "url": "https://www.stize.io",
-                "new_window": true
-            }
-        ]
+        "content": "&copy; Stize. All rights reserved."
     },
     "title": "Stize"
 }
