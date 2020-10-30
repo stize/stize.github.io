@@ -21,18 +21,20 @@ sections:
 
       Mollis eget congue quis, venenatis sit amet metus. Etiam sit amet tortor
       sed justo tempor condimentum.
-    actions:
-      - label: Free Trial
-        url: /signup
-        primary: true
-      - label: View Demo
-        url: '#'
+    # actions:
+    #   - label: Free Trial
+    #     url: /signup
+    #     primary: true
+    #   - label: View Demo
+    #     url: '#'
   - section_id: call-to-action
     type: section_cta
     title: This Is Call to Action Block!
     subtitle: This is an optional description for the call to action block.
     actions:
       - label: Get Started
-        url: '#'
+        url: https://github.com/stize
+        primary: true
+        new_window: true
 template: landing
 ---

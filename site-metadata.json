@@ -3,7 +3,7 @@
     "header": {
         "title": "Stize",
         "logo_img": "images/logo_s.png",
-        "has_nav": true,
+        "has_nav": false,
         "nav_links": [
             {
                 "label": "Home",
@@ -22,7 +22,7 @@
     "footer": {
         "logo_img": "images/logo_s_alt.png",
         "tagline": "Stize",
-        "has_nav": true,
+        "has_nav": false,
         "nav_title": "Stize",
         "nav_links": [
             {

@@ -8,7 +8,7 @@ export default class SectionHero extends React.Component {
     render() {
         let section = _.get(this.props, 'section', null);
         return (
-            <section id={_.get(section, 'section_id', null)} className="block hero-block bg-accent outer">
+            <section id={_.get(section, 'section_id', null)} className={'block hero-block bg-accent outer ' + _.get(section, 'className', null)}>
               <div className="inner">
                 <div className="grid">
                   {_.get(section, 'image', null) && (
@@ -18,7 +18,7 @@ export default class SectionHero extends React.Component {
                   )}
                   <div className="cell block-content">
                     {_.get(section, 'title', null) && (
-                    <h2 className="block-title underline">{_.get(section, 'title', null)}</h2>
+                    <h2 className="block-title underline">{markdownify(_.get(section, 'title', null))}</h2>
                     )}
                     <div className="block-copy">
                       {markdownify(_.get(section, 'content', null))}

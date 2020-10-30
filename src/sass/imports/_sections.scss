@@ -61,6 +61,13 @@
     }
   }
 }
+.hero-block.no-p-margin{
+  .block-title {
+    p {
+      margin: 0;
+    }
+  }
+}
 
 @media only screen and (min-width: 801px) {
   .hero-block,
@@ -203,6 +210,7 @@
   margin-bottom: 1.5em;
   padding-top: 2rem;
   position: relative;
+  flex-grow: 1;
 
   &:before {
     color: _palette(accent);
@@ -602,5 +610,118 @@
   &.bg-white + &.bg-white,
   &.bg-gray + &.bg-gray {
     padding-top: 0;
+  }
+}
+
+/* Reviews */
+.technology {
+  border: 0;
+  font-size: 0.88889rem;
+  line-height: 1.75;
+  margin: 0 auto 1.66667rem;
+  max-width: 488px;
+  padding: 0;
+}
+
+.technology-inside {
+  background: #fff;
+  border: 1px solid _palette(border);
+  border-radius: 3px;
+  box-shadow: 0 3px 10px 0 rgba(_palette(primary),.1);
+  padding: 1.11111rem;
+}
+
+.technology-text {
+  margin-bottom: 1.5em;
+  padding-top: 2rem;
+  position: relative;
+
+  &:before {
+    color: _palette(accent);
+    content: "\201C";
+    display: block;
+    font-size: 2.66667rem;
+    font-weight: bold;
+    left: 0;
+    line-height: 1;
+    position: absolute;
+    top: 0;
+  }
+}
+
+.technology-footer {
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  justify-content: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+
+  .technology-author {
+    color: _palette(secondary);
+    font-size: inherit;
+    font-weight: bold;
+    margin: 0;
+  }
+
+  .technology-avatar {
+    // border-radius: 50%;
+    height: 60px;
+    // margin-right: 15px;
+    // width: 60px;
+  }
+}
+
+@media only screen and (min-width: 741px) {
+  .technologies-block {
+    .grid {
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      margin: 0 -0.83333rem;
+
+      justify-content: center;
+    }
+
+    .cell {
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-flex: 1 1 auto;
+      -ms-flex: 1 1 auto;
+      flex: 1 1 auto;
+      -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      margin: 0 0 1.66667em;
+
+
+      &:first-child:nth-last-child(4),
+      &:first-child:nth-last-child(4) ~ .cell {
+        // min-width: 40%;
+      }
+
+      &:first-child:nth-last-child(5),
+      &:first-child:nth-last-child(5) ~ .cell {
+        // min-width: 30%;
+      }
+    }
+
+    .technology-inside {
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-flex: 1 1 auto;
+      -ms-flex: 1 1 auto;
+      flex: 1 1 auto;
+      -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      margin: 0 0.833333em;
+    }
   }
 }
