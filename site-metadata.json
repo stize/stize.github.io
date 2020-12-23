@@ -45,6 +45,11 @@
                 "label": "Github",
                 "url": "https://github.com/stize",
                 "new_window": true
+            },
+            {
+                "label": "Slack",
+                "url": "https://stize.slack.com",
+                "new_window": true
             }
         ],
         "has_subscribe": true,
